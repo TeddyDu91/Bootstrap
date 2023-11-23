@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="script.js">
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
    <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -108,13 +109,17 @@
     
   </section>
 
-   <Section class="services mx-auto bg-secondary ">
+<!-- Partie Services -->
+<h1 class="ser">Services.</h1>
+
+   <Section class="services mx-auto bg-secondary">
+  
+
     <div class="container">
-      <h1 class="ser">Services.</h1>
       <div class="row ">
-        <div class="col-lg-4 mb-3">
+        <div class="col-lg-4 mb-3 ">
           <div class="card text-center py-3">
-            <div class="card-body">
+            <div class="card-body ">
               <div class="circle">
                 <span><i class="fas fa-desktop"></i></span>
               
@@ -205,7 +210,6 @@
       </div>
 
   </div>
-
   
     </div>
     
@@ -213,19 +217,102 @@
 
    <br> <br>
 
-   <div class="PortFolio">
+ <!-- Partie PorFolio-->
+
+
+   <div class="PortFolio py-5">
     <div class="container">
-      <h1 class="text-center pb-5">Services</h1>
-      <div class="control">
+      <h1 class="text-center pb-5">PortFolio.</h1>
+      <div class="control text-center pt-2">
+      
         <ul>
-          <li>Tout</li>
-          <li>Customisation</li>
-          <li>Design</li>
-          <li>Graphique</li>
+          <li class="button active" data-filter="filter">Tout</li>
+          <li class="button active" data-filter="Brand">Customisation</li>
+          <li class="buton active" data-filter="Design">Design</li>
+          <li class="buton active" data-filter="Graphique">Graphique</li>
         </ul>
+        <br><br>
       </div>
-      <div class="row">
+      <div class="row pt-3 ">
+        <div class="col-lg-4 ">
+          <div class="item">
+          <img src="./assets/images/pexels-cocarinne-7260262.jpg"   class="img-fluid1 filter Brand Design Graphique" alt="">
+      
+        <span><i class="fa fa-plus" data-toggle="modal" data-target="#portfoliomodal"></i> </span>
+
+            
         
+      </div>
+    </div>
+    <div class="col-lg-4 ">
+      <div class="item">
+      <img src="./assets/images/pexels-mike-1192057.jpg "   class="img-fluid1  filter Brand Design Graphique" alt="">
+  
+    <span><i class="fa fa-plus" data-toggle="modal " data-target="#portfoliomodal"></i> </span>
+
+        
+    
+  </div>
+</div>
+
+<div class="col-lg-4 ">
+  <div class="item">
+  <img src="./assets/images/pexels-liza-summer-6347954.jpg "   class="img-fluid1 filter Brand Design Graphique " alt="">
+
+<span><i class="fa fa-plus" data-toggle="modal " data-target="#portfoliomodal"></i> </span>
+
+    
+
+</div>
+</div>
+<div class="col-lg-4 ">
+  <div class="item">
+  <img src="./assets/images/pexels-tirachard-kumtanom-733852.jpg "   class="img-fluid1 filter Brand Design Graphique" alt="">
+
+<span><i class="fa fa-plus" data-toggle="modal " data-target="#portfoliomodal"></i> </span>
+
+    
+
+</div>
+</div>
+
+<div class="col-lg-4 ">
+  <div class="item">
+  <img src="./assets/images/pexels-mithul-varshan-3023211.jpg"   class="img-fluid1 filter Brand Design Graphique" alt="">
+
+<span><i class="fa fa-plus" data-toggle="modal " data-target="#portfoliomodal"></i> </span>
+
+    
+
+</div>
+</div>
+<div class="col-lg-4 ">
+  <div class="item">
+  <img src="./assets/images/pexels-dominika-roseclay-1036848.jpg"   class="img-fluid1 filter Brand Design Graphique " alt="">
+
+<span><i class="fa fa-plus"></i> </span>
+
+    
+
+</div>
+</div>
+  </div>
+ 
+    </div>
+  </section>
+
+  <div class="portfolio-modal modal fade mt-5 "id="portfoliomodal" arial-hidden="true" role="dialog"> 
+    <div class="modal-dialog modal-md" role="document">
+      <div class="modal-content text-center">
+        <div class="modal-body text-center">
+          <div class="container-fluid py-3">
+            <div class="row justify-content-center">
+              <div class="col-lg-12">
+                <img src="./assets/images/pngtree-blue-leaf-line-abstract-logo-design-template-image_430312.jpg" class="img-fluid1 rounded" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
