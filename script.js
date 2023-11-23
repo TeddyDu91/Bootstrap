@@ -1,16 +1,10 @@
-$document.ready(function() {
-$ (".button").click(function(){
-    var value =$(this).attr("data-filter");
-    if(value=="all"){
-        $(".filter").show("100");
-    }
-    else{
-        $(".filter").not("."+value).hide("1000");
-        $(".filter").filter("."+value).show("1000");
+	document.addEventListener("click",function (e){
+		  if(e.target.classList.contains("img-fluid1")){
+		  	  const src = e.target.getAttribute("src");
+		  	  document.querySelector(".modal-img").src = src;
+		  	  const myModal = new bootstrap.Modal(document.getElementById('gallery-popup'));
+		  	  myModal.show();
+		  }
+		})
 
-    }("ul .button").click (function(){
-    $(this).addClass('active').siblings() .removeClass('active');
-
-})
-})
-})
+      
