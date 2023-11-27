@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+
  
 @import url('https://fonts.googleapis.com/css2?family=Montaga&display=swap');
 /* navbar */
@@ -252,18 +253,25 @@ h1{
 
 /* partie Services */
 .services {
-    width: 60%;
+    width: 80%;
     
     
 }
 
- h1.ser {
+ h2.ser {
     font-family: 'Montaga', serif;
     text-align: center;
     justify-content: center;
     margin-bottom: 45px;
-       
+    border: 1px Solid black;
+   width: 70%;
+   margin: auto;
+    margin-bottom: 40px;
+    border-radius: 25px;
+    background-color: rgb(235, 225, 225);
+     
 }
+
 
 
 
@@ -297,14 +305,36 @@ h1{
 
 /* Partie PortFolio */
 
-.grid-container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr 1fr 1fr);
+.PortFolio{
+    background-color : rgb(248, 248, 248);
+    
     
 }
 
-.grid-img{
-    border: solid black 1px;
-    margin-left: 100px;
-    object-fit: cover;
+.PortFolio h2{
+    border: 1px Solid black;
+   width: 70%;
+   margin: auto;
+   border-radius: 25px;
+   
+    
 }
+strong{
+    margin-top: 60px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr 1fr 1fr);
+    height: 500px;
+    margin-left: 180px;
+    
+  
+}
+
+.grid-img{
+
+    border:  1px solid rgb(15, 15, 15) ;
+    
+}
+
