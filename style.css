@@ -266,7 +266,7 @@ h1{
     border: 1px Solid black;
    width: 70%;
    margin: auto;
-    margin-bottom: 40px;
+   margin-bottom: 40px;
     border-radius: 25px;
     background-color: rgb(235, 225, 225);
      
@@ -338,3 +338,86 @@ strong{
     
 }
 
+/* Partie Contact */
+
+
+.classForm {
+    
+   margin:45px auto;
+    width: 60%;
+    height: 95vh;
+   
+    
+    
+    background-color: rgba(242, 250, 250, 0.986);
+
+}
+
+
+
+.Text-center{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    
+}
+
+
+.labelEmail{
+    margin-left: 37px;
+}
+
+.labelFlex{
+    margin-left: 37px;
+}
+.emailInp{
+    margin: 5px;
+    width: 90%;
+    margin-left: 40px;
+
+   
+}
+
+.flex2Inputs{
+    display: flex;
+
+}
+
+#prenom{
+    width: 80%;
+    margin-left: 40px;
+
+}
+
+#nom{
+    width: 80%;
+    margin-left: 40px;
+
+}
+.labelSelect{
+    margin-left: 40px ;
+}
+
+#inpSelect{
+    width: 90%;
+    margin-left: 40px;
+
+}
+
+#txtArea{
+    margin-left: 40px;
+    width: 90%;
+}
+
+.labelTxt{
+    margin-left: 40px;
+
+}
+
+#Envoyez{
+    margin-left: 40px;
+}
+
+footer{
+    background-color: rgb(234, 247, 247);
+}
