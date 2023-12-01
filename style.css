@@ -331,6 +331,8 @@ strong{
     background-color: rgb(143, 143, 255);
     
 
+    
+
 }
 
 .grid-img{
@@ -443,4 +445,13 @@ footer{
 
 #Envoyer:hover{
     background-color: aquamarine;
+}
+
+
+@media screen and (max-width:768px)   {
+
+   .classForm{
+    height: 50%;
+    
+   } 
 }
