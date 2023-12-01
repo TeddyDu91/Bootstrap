@@ -323,22 +323,26 @@ strong{
     margin-top: 60px;
 }
 
+/* Partie grille d'images */
+
 .grid-container{
     display: grid;
-    grid-template-columns: repeat(3,1fr 1fr 1fr);
-    height: 500px;
-    margin-left: 180px;
+    grid-template-columns: repeat(auto-fit,minmax(250px, 3fr));
+    background-color: rgb(143, 143, 255);
     
-  
+
 }
 
 .grid-img{
 
     border:  1px solid rgb(15, 15, 15) ;
+   margin: 0 auto;
     
 }
 
+
 /* Partie Contact */
+
 
 
 .classForm {
@@ -353,7 +357,22 @@ strong{
 
 }
 
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
 
+    height: 12vh;
+}
+
+.cercle{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(185, 236, 236);
+}
 
 .Text-center{
     text-align: center;
@@ -420,4 +439,8 @@ strong{
 
 footer{
     background-color: rgb(234, 247, 247);
+}
+
+#Envoyer:hover{
+    background-color: aquamarine;
 }
