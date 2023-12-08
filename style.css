@@ -366,7 +366,7 @@ strong{
     width: 50%;
     margin: 0 auto;
 
-    height: 12vh;
+    height: 10vh;
 }
 
 .cercle{
@@ -439,6 +439,10 @@ strong{
     margin-left: 40px;
 }
 
+
+/* Partie Footer */
+
+
 footer{
     background-color: rgb(234, 247, 247);
 }
@@ -454,4 +458,8 @@ footer{
     height: 50%;
     
    } 
+}
+
+#in{
+    margin-right:20px ;
 }
